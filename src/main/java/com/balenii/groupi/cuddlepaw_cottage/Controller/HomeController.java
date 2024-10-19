@@ -73,7 +73,8 @@ public class HomeController {
     public String ApplicationSuccess(){return "ApplicationSuccess";}
 
     @GetMapping("/login_error")
-    public String login_errorPage(){return "loginError";}
+    public String login_errorPage(){
+        return "loginError";}
 
     // Mapping to the Admin view-pet page
     @GetMapping("/adminViewPets")
