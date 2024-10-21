@@ -7,7 +7,6 @@
 //import org.springframework.security.core.GrantedAuthority;
 //import org.springframework.security.web.authentication.AuthenticationSuccessHandler;
 //import org.springframework.stereotype.Component;
-//
 //import java.io.IOException;
 //
 //@Component
@@ -21,7 +20,7 @@
 //        response.setStatus(HttpServletResponse.SC_OK);
 //
 //        for (GrantedAuthority auth : authentication.getAuthorities()) {
-//            if ("ADMIN".equals(auth.getAuthority())) {
+//            if ("Role".equals(auth.getAuthority())) {
 //                response.sendRedirect("/dashboard");
 //            }
 //        }
