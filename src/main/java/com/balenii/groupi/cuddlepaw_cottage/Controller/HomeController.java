@@ -101,12 +101,6 @@ public class HomeController {
     @GetMapping("/viewApplications")
     public String viewApplications(){return "viewApplications";}
 
-//    @GetMapping("/removePet")
-//    public String removePet(){
-//
-//
-//        return "removePet";}
-
 
     // Mapping to the Admin Pet adding form
     @GetMapping("/addPetForm")

@@ -9,7 +9,7 @@ import java.time.LocalDateTime;
 
 @Setter
 @Getter
-@Document
+@Document(collection = "adoptform")
 public class AdoptApplication {
 
     @Id
